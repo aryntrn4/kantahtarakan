@@ -81,9 +81,10 @@
     </div>
 
     <script>
-        function closePopup() {
-            document.getElementById('popup').style.display = 'none';
-        }
+      // Tampilkan modal saat halaman dimuat
+      window.onload = function() {
+        document.getElementById("popup").style.display = "block";
+      };
     </script>
 </body>
 
